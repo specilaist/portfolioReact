@@ -5,8 +5,6 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>EBAN'S PORTFOLIO</title>
-
-
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
             integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
       <link rel="stylesheet" href="./styles/style.css">
@@ -15,77 +13,49 @@
 
 <body>
       <!-- biginning of the navbar -->
-      <nav class="navbar m-0 p-0" id="navbar">
-            <div class="row flex-row col-sm-12 p-0">
-                  <div class="navbar-text col-md-4 col-xs-12" id="ebansName">
-
-                              <h3 id="ebansInfo" class="align-items-center">Eban's Info</h3>
-      
-
-                  </div>
-                  <!-- about sub div with links -->
-                  <div class="col-md-8 col-xs-12 justify-content-*-around">
-                        <ul class="nav float-sm-center float-md-right">
-                              <li class="nav-items align-items-center">
-                                    <a class="nav-link" href="index.html">ABOUT</a>
-                              </li>
-                              <li class="nav-items">
-                                    <a class="nav-link" href="portfolio.html">Eban's PORTFOLIO</a>
-                              </li>
-                              <li class="nav-items">
-                                    <a class="nav-link" href="contact.html">CONTACT</a>
-                              </li>
-                        </ul>
-                  </div>
-
+      <nav class="navbar" id="navbar">
+            <div class="navbar-text col-md-4 col-xs-12 align-items-center" id="ebansName">
+                  <h3 id="ebansInfo" class="">Eban's Info</h3>
             </div>
+            <!-- about sub div with links -->
+            <div class="row col-md-8 col-xs-12 justify-content-*-around">
+                  <ul class="nav row float-sm-center float-md-right">
+                        <li class="nav-items align-items-center">
+                              <a class="nav-link col-md-12" href="index.html">ABOUT</a>
+                        </li>
+                        <li class="nav-items">
+                              <a class="nav-link col-md-12" href="portfolio.html">Eban's PORTFOLIO</a>
+                        </li>
+                        <li class="nav-items">
+                              <a class="nav-link col-md-12" href="contact.html">CONTACT</a>
+                        </li>
+                  </ul>
+            </div>
+
+
       </nav>
 
-      <div class="container m-x-sm-0">
-            <h3>PORTFOLIO</h3>
+      <div id="portfolio" class="container-fluid m-xs-0">
+            <h3 class="p-1">PORTFOLIO</h3>
             <figure class="border-top my-3"></figure>
-            <section class="row">
-                  <figure class="projects col-md-6 col-sm-12" id="">
-                        <img class="image" src="./styles/nature.jpeg" alt="" />
-                        <div>
-                              <a href="https://specilaist.github.io/ebansPortfolio/" class="banner align-text-center">Password Generator</a>
-                        </div>
-                   
-                  </figure>
-                  <figure class="projects col-md-6 col-sm-12" id="">
-                        <img class="image" src="./styles/nature.jpeg" alt="" />
-                        <div class="banner">
-                              <!-- < class="text-center"></p> -->
-                        </div>
-                        <!-- <figcaption class="banner align-text-center">Rock Paper Scissors</figcaption> -->
-                  </figure>
+            <div id="generateContainer" class="d-flex">
 
-            </section>
-
-            <section class="row">
-                  <figure class="projects col-md-6 col-sm-12" id="">
-                        <img class="image" src="./styles/nature.jpeg" alt="" />
-                        <figcaption class="banner">Rock Paper Scissors</figcaption>
-                  </figure>
-                  <figure class="projects col-md-6 col-sm-12" id="">
-                        <img class="image" src="./styles/nature.jpeg" alt="" />
-                        <figcaption class="banner">Rock Paper Scissors</figcaption>
-                  </figure>
-
-            </section>
-
+            </div>
       </div>
 
       <footer class="footer mt-auto py-3">
             <div class="container">
                   <span class="align-text-center">
-                        Copyright Berkeley BootCamp
+                        Copyright Berkeley BootCamp 2020
                   </span>
             </div>
       </footer>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-            crossorigin="anonymous"></script>
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+            </script>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+      <script src="./homeworkList.js"></script>
 </body>
 
 </html>
