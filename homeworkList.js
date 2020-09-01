@@ -35,10 +35,15 @@ $(document).ready(function() {
       console.log(projects);
 
       let generate = function () {
-            $.each(projects, function(_function, items) {
+            $.each(projects, function(_index, items) {
+                  // if (index % 2 === 0) {
+                  //       row = $('<div>');
+                  //       row.addClass('row');
+                  // }
+                  console.log(items);
                   console.log(items);
                   const project = $('<figure>');
-                  project.addClass('projects col-md-6 col-sm-12 m-2 d-inline-block');
+                  project.addClass('projects col-md-5 col-sm-12 d-inline-block m-2');
 
                   const banner = $('<div>');
                   banner.addClass('banner');
