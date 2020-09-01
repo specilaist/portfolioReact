@@ -38,7 +38,7 @@ $(document).ready(function() {
             $.each(projects, function(_function, items) {
                   console.log(items);
                   const project = $('<figure>');
-                  project.addClass('projects col-md-6 col-sm-12 m-2');
+                  project.addClass('projects col-md-6 col-sm-12 m-2 d-inline-block');
 
                   const banner = $('<div>');
                   banner.addClass('banner');
