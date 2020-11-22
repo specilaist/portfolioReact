@@ -1,0 +1,19 @@
+{
+  "name": "02-portfolio-2",
+  "version": "1.0.0",
+  "description": "ReactApp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/specilaist/portfolioReact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/specilaist/portfolioReact/issues"
+  },
+  "homepage": "https://github.com/specilaist/portfolioReact#readme"
+}
