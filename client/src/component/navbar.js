@@ -33,7 +33,7 @@ export default function NavBar() {
           <Typography variant="h6" className={classes.title}>
             Eban's PORTFOLIO
           </Typography>
-          <Button component={Link} to='/projects' color="inherit">Projects</Button>
+          <Button component={Link} to='/' color="inherit">Projects</Button>
           <Button component={Link} to='/aboutMe' color="inherit">About Me</Button>
           <Button component={Link} to='/contactMe' color="inherit">Contact Me</Button>
         </Toolbar>

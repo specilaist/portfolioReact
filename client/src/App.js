@@ -11,8 +11,8 @@ function App() {
   return (
     <Router>
       <Navbar/>
-      <Route exact path="/" component={MainPage} />
-      <Route exact path="/projects" component={Projects} />
+      {/* <Route exact path="/" component={MainPage} /> */}
+      <Route exact path="/" component={Projects} />
       <Route exact path="/aboutMe" component={AboutMe} />
       <Route exact path="/contactMe" component={ContactMe} />
     </Router>

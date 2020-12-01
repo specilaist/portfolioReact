@@ -16,7 +16,7 @@ function Projects(){
                   name={projects.name} 
                   image={projects.image} 
                   code={projects.code} 
-                  website={projects.websit} 
+                  website={projects.website} 
                   github={projects.github}/> 
             })
       }
