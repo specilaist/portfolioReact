@@ -1,42 +1,99 @@
 [
   {
     "id": 1,
-    "name": "SpongeBob",
+    "name": "generatePassword",
     "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-    "code": "Fry Cook",
-    "website": "A Pineapple Under the Sea",
-    "github": ""
+    "code": "Javascript, JQuery",
+    "website": "https://specilaist.github.io/generatePassword/",
+    "github": "https://github.com/specilaist/generatePassword.git"
   },
   {
     "id": 1,
-    "name": "SpongeBob",
+    "name": "refactor",
     "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-    "code": "Fry Cook",
-    "website": "A Pineapple Under the Sea",
-    "github": ""
+    "code": "Javascript",
+    "website": "https://specilaist.github.io/BootCamp-Week-1/",
+    "github": "https://github.com/specilaist/BootCamp-Week-1.git"
   },
   {
     "id": 1,
-    "name": "SpongeBob",
+    "name": "Portfolio One",
     "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-    "code": "Fry Cook",
-    "website": "A Pineapple Under the Sea",
-    "github": ""
+    "code": "Javascript, JQuery",
+    "website": "https://specilaist.github.io/CSS-and-Bootstrap/",
+    "github": "https://github.com/specilaist/CSS-and-Bootstrap.git"
   },
   {
     "id": 1,
-    "name": "SpongeBob",
+    "name": "Weather APP",
     "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-    "code": "Fry Cook",
-    "website": "A Pineapple Under the Sea",
-    "github": ""
+    "code": "Javascript, JQuery",
+    "website": "https://specilaist.github.io/weatherApp/",
+    "github": "https://github.com/specilaist/weatherApp.git"
   },
   {
     "id": 1,
-    "name": "SpongeBob",
+    "name": "Test Quiz",
     "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-    "code": "Fry Cook",
-    "website": "A Pineapple Under the Sea",
-    "github": ""
+    "code": "Javascript",
+    "website": "https://specilaist.github.io/Test-Quiz/",
+    "github": "https://github.com/specilaist/Test-Quiz.git"
+  },
+  {
+    "id": 1,
+    "name": "Day Planner",
+    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+    "code": "Javascript, JQuery, Bootstrap",
+    "website": "https://specilaist.github.io/dayPlanner/",
+    "github": "https://github.com/specilaist/dayPlanner.git"
+  },
+  {
+    "id": 1,
+    "name": "Lyric Jam",
+    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+    "code": "Javascript, Jquery, Bootstrap",
+    "website": "https://specilaist.github.io/Lyric-Jam/",
+    "github": "https://github.com/specilaist/Lyric-Jam.git"
+  },
+  {
+    "id": 1,
+    "name": "generateReadMe",
+    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+    "code": "Javascript, Node, Inquirer, Axios",
+    "website": "https://specilaist.github.io/generateReadMe/",
+    "github": "https://github.com/specilaist/generateReadMe.git"
+  },
+  {
+    "id": 1,
+    "name": "Employee_Summary",
+    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+    "code": "Javascript, Node, Inquirer, Axios, html",
+    "website": "Under Construction",
+    "github": "https://github.com/specilaist/Employee-Summary.git"
+  },
+  {
+    "id": 1,
+    "name": "Note-Taker",
+    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+    "code": "Javascript, Node, Inquirer, Axios",
+    "website": "Under Construction",
+    "github": "https://github.com/specilaist/Note-Taker.git"
+  },
+  {
+    "id": 1,
+    "name": "Employee_Tracker",
+    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+    "code": "Javascript, Node, Inquirer, Axios, MySql",
+    "website": "N/A",
+    "github": "https://github.com/specilaist/Employee_Tracker.git"
+  },
+  {
+    "id": 1,
+    "name": "Smedium",
+    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+    "code": "Javascript, Node, Express, React, MySql",
+    "website": "https://guarded-scrubland-12802.herokuapp.com/",
+    "github": "https://github.com/iPan7/Smedium.git"
   }
+
 ]
