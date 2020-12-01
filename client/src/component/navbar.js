@@ -1,5 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
+import {Link} from 'react-router-dom';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
@@ -19,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function ButtonAppBar() {
+export default function NavBar() {
   const classes = useStyles();
 
   return (
@@ -32,9 +33,9 @@ export default function ButtonAppBar() {
           <Typography variant="h6" className={classes.title}>
             Eban's PORTFOLIO
           </Typography>
-          <Button color="inherit">Projects</Button>
-          <Button color="inherit">About Me</Button>
-          <Button color="inherit">Contact Me</Button>
+          <Button component={Link} to='/projects' color="inherit">Projects</Button>
+          <Button component={Link} to='/aboutMe' color="inherit">About Me</Button>
+          <Button component={Link} to='/contactMe' color="inherit">Contact Me</Button>
         </Toolbar>
       </AppBar>
     </div>
