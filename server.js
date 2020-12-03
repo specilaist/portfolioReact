@@ -12,7 +12,6 @@ if (process.env.NODE_ENV === 'production') {
 
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
-app.use(routes);
 
 app.listen(PORT, () => {
   console.log('Server started listening on PORT http://localhost:3001');
