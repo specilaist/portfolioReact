@@ -10,14 +10,18 @@ import MenuIcon from '@material-ui/icons/Menu';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    // flexGrow: 1,
+    flexGrow: 1,
+    flexShrink: 2,
   },
   menuButton: {
-    marginRight: theme.spacing(2),
+    marginRight: theme.spacing(0),
   },
   title: {
-    // flexGrow: 1,
+    flexGrow: 1,
+    flexShrink: 2,
   },
+  button: {
+  }
 }));
 
 export default function NavBar() {

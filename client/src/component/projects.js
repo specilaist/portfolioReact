@@ -1,7 +1,5 @@
 import React from 'react';
-
 import ProjectCard from './projectCard/projectCard';
-import Navbar from './navbar';
 import projects from '../projects.json';
 
 

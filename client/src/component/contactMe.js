@@ -1,60 +1,91 @@
 import React from "react";
+import { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import TextField from "@material-ui/core/TextField";
+import Button from "@material-ui/core/Button";
 
 const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",
     flexWrap: "wrap",
     "& > *": {
-      margin: theme.spacing(5),
-      width: theme.spacing(100),
+      margin: theme.spacing(3),
+      width: theme.spacing(55),
       // height: theme.spacing(100),
     },
   },
   textField: {
-
+    margin: theme.spacing(2),
+    width: '30ch'
+  },
+  commentField: {
+    margin: theme.spacing(2),
+    width: '30ch'
   }
 }));
 
 const ContactMe = () => {
   const classes = useStyles();
+  const [submit, setSubmit] = useState("unsubmit");
 
   return (
-    <div>
-      <Paper className={classes.root} elevation={5}>
-        <TextField className={classes.textField}
-          id="outlined-read-only-input"
-          label="Read Only"
-          defaultValue="Hello World"
-          InputProps={{
-            readOnly: true,
-          }}
-          variant="outlined"
-        />
-        <TextField
-          id="outlined-number"
-          label="Number"
-          type="number"
-          InputLabelProps={{
-            shrink: true,
-          }}
-          variant="outlined"
-        />
-        <TextField
-          id="outlined-search"
-          label="Search field"
-          type="search"
-          variant="outlined"
-        />
-        <TextField
-          id="outlined-helperText"
-          label="Helper text"
-          defaultValue="Default Value"
-          helperText="Some important text"
-          variant="outlined"
-        />
+    <div className={classes.root}>
+      <Paper elevation={5}>
+        <div>
+          <h2 className={classes.textField}>Contact Me</h2>
+          <p className={classes.textField}>
+            Thank you for visiting my portfolio website. Please leave contact
+            information so I may see who's checking out my website and I can
+            follow up with.
+          </p>
+        </div>
+        <form>
+          <TextField
+            className={classes.textField}
+            id="outlined-search-full-width"
+            label="Name"
+            type="search"
+            fullWidth
+            variant="outlined"
+            helperText="Any name You Identify As"
+          />
+          <TextField
+            className={classes.textField}
+            id="outlined-search"
+            label="Email"
+            type="email"
+            variant="outlined"
+          />
+          <TextField
+            className={classes.textField}
+            id="outlined-search"
+            label="Phone"
+            type="tel"
+            variant="outlined"
+            helperText="Not Necessary"
+          />
+          <TextField
+            className={classes.textField}
+            id="outlined-search"
+            label="Business"
+            type="string"
+            variant="outlined"
+            helperText="If a Recruiter, please list recruiting company"
+          />
+          <TextField
+            className={classes.commentField}
+            id="outlined-helperText"
+            label="Comments"
+            helperText="Please leave any comments or suggestions"
+            variant="outlined"
+          />
+        </form>
+        <div className={classes.textField}>
+          <Button variant="contained" color="primary">
+            Submit
+          </Button>
+        </div>
       </Paper>
     </div>
   );
