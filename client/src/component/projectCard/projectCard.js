@@ -26,7 +26,7 @@ function ProjectCard(props) {
             <strong>Code Used:</strong> {props.code}
           </li>
           <li>
-            <strong>Website:</strong> {props.website}
+            <strong>Website:</strong> {props.website} <a href={props.website}/>
           </li>
           <li>
             <strong>GitHub:</strong> {props.github}
