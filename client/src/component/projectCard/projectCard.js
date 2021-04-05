@@ -26,14 +26,13 @@ function ProjectCard(props) {
             <strong>Code Used:</strong> {props.code}
           </li>
           <li>
-            <strong>Website:</strong> {props.website} <a href={props.website}/>
+            <strong>Website:</strong> <a href={props.website}>{props.website}</a> 
           </li>
           <li>
-            <strong>GitHub:</strong> {props.github}
+            <strong>GitHub:</strong> <a href={props.website}>{props.website}t</a>
           </li>
         </ul>
       </div>
-      <span className="enlarge">𝘅</span>
     </div>
   );
 }

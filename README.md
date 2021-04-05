@@ -1,5 +1,13 @@
 # Eban's Portfolio React
 
+## The Issue
+* Needing a functional website that displays my comprehension of market technologies and languages like React and CSS. 
+* Has to display completed projects that convey experience along with best practices. 
+* Allows prospective employers and collaborators an organized platform to contact me and see my work.
+
+## Organization
+* This will be a React based website that has three pages to show Projects, information About Me, and ways for people to Contact Me. I am using React Router DOM to organize the pages. A card component is rendering the project cards using the map funtion. Visitor information and comments can be logged on a server and sent to my email. 
+
 # My Steps
    * Making the Nav Bar was pretty easy because I copied the form from the Bootstrap website.
       * I entered "Eban's Info" as the main Navbar title
