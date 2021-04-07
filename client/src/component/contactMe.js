@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
     flexWrap: "wrap",
     "& > *": {
       margin: theme.spacing(3),
-      width: theme.spacing(55),
+
       // height: theme.spacing(100),
     },
   },
@@ -21,7 +21,8 @@ const useStyles = makeStyles((theme) => ({
   },
   commentField: {
     margin: theme.spacing(2),
-    width: '30ch'
+    width: '60ch',
+    height: "20ch"
   }
 }));
 
