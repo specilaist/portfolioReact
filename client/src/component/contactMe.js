@@ -1,9 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import Paper from "@material-ui/core/Paper";
-import TextField from "@material-ui/core/TextField";
-import Button from "@material-ui/core/Button";
+import { Paper, TextField, Button } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -23,6 +21,9 @@ const useStyles = makeStyles((theme) => ({
     margin: theme.spacing(2),
     width: '60ch',
     height: "20ch"
+  },
+  languages: {
+
   }
 }));
 
