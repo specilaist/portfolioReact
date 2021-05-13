@@ -9,6 +9,7 @@ import Paper from "@material-ui/core/Paper";
 import CardActions from "@material-ui/core/CardActions";
 import Collapse from "@material-ui/core/Collapse";
 import RecipeReviewCard from "./projectCard/cardExample";
+import me from './../images/me.jpeg';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -38,8 +39,6 @@ const AboutMe = () => {
         <h1>My Contact Info</h1>
       </Paper>
       <Card>
-        <h2>About Me</h2>
-        {/* <img alt="Eban" src="/images/me.jpeg" /> */}
         <CardHeader title="About Me" titleTypographyProps="h1">
           <Typography component="h2">About Me</Typography>
         </CardHeader>
@@ -49,8 +48,10 @@ const AboutMe = () => {
           component="image"
           height="100"
 					title='nature'
-          src="/nature.jpeg"
-        />
+          src={me}>
+            <img className={classes.media} src={ me } />
+
+        </CardMedia>
         <CardContent>
           <p>Hello,</p>
           My name is Eban Cambridge and seeking a position as a Full Stack Web
