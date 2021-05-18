@@ -2,6 +2,9 @@ import React from "react";
 import { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Paper, TextField, Button } from "@material-ui/core";
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import MailOutlineIcon from '@material-ui/icons/MailOutline';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -41,6 +44,12 @@ const ContactMe = () => {
             information so I may see who's checking out my website and I can
             follow up with.
           </p>
+          <a href="https://www.linkedin.com/in/eban-cambridge345/" target="_blank" img={LinkedInIcon}>LinkedIn</a>
+          <a href="" target="_blank" img={LinkedInIcon}>Email</a>
+          <a href="https://github.com/specilaist" target="_blank" img={LinkedInIcon}>Github</a>
+          <div>
+            
+          </div>
         </div>
         <form>
           <TextField
