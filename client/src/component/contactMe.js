@@ -48,7 +48,7 @@ const ContactMe = () => {
           </p>
           {/* <a href="https://www.linkedin.com/in/eban-cambridge345/" target="_blank" img={LinkedInIcon}>{GitHubIcon}LinkedIn</a> */}
           {/* <a href="" target="_blank" img={LinkedInIcon}>Email</a> */}
-          <Button className={classes.button} variant="contained" startIcon={<MailOutlineIcon />}  >Email</Button>
+          <Button className={classes.button} variant="contained" startIcon={<MailOutlineIcon />}  href="mailto:eecambridge@gmail.com" >Email</Button>
           <Button className={classes.button} variant="contained" startIcon={<GitHubIcon /> } href="https://github.com/specilaist" target="_blank" >GitHub</Button>
           <Button className={classes.button} variant="contained" startIcon={<LinkedInIcon />} href="https://www.linkedin.com/in/eban-cambridge345" target="_blank" >LinkedIn</Button>
           <div>

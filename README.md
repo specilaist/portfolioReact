@@ -27,6 +27,7 @@ Once I wrote by Bio and what I wanted to include I felt using cards in a grid sy
 # App Links
 
 GitHub Link:
+https://github.com/specilaist/portfolioReact
 
 App Link
-
+specilaist.github.io/portfolioreact/

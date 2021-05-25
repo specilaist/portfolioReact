@@ -22,8 +22,8 @@ const useStyles = makeStyles((theme) => ({
   },
   paper: {},
   media: {
-    height: 100,
-    width: 100,
+    margin: theme.spacing(2),
+    height: "300px",
   },
   text: {
     margin: theme.spacing(2),
