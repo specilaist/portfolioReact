@@ -25,14 +25,16 @@ const useStyles = makeStyles((theme) => ({
     width: '60ch',
     height: "20ch"
   },
-  languages: {
-
+  button: {
+    margin: theme.spacing(2),
   }
 }));
 
 const ContactMe = () => {
   const classes = useStyles();
   const [submit, setSubmit] = useState("unsubmit");
+  const gitHubLink = "https://github.com/specilaist"
+
 
   return (
     <div className={classes.root}>
@@ -44,9 +46,11 @@ const ContactMe = () => {
             information so I may see who's checking out my website and I can
             follow up with.
           </p>
-          <a href="https://www.linkedin.com/in/eban-cambridge345/" target="_blank" img={LinkedInIcon}>LinkedIn</a>
-          <a href="" target="_blank" img={LinkedInIcon}>Email</a>
-          <a href="https://github.com/specilaist" target="_blank" img={LinkedInIcon}>Github</a>
+          {/* <a href="https://www.linkedin.com/in/eban-cambridge345/" target="_blank" img={LinkedInIcon}>{GitHubIcon}LinkedIn</a> */}
+          {/* <a href="" target="_blank" img={LinkedInIcon}>Email</a> */}
+          <Button className={classes.button} variant="contained" startIcon={<MailOutlineIcon />}  >Email</Button>
+          <Button className={classes.button} variant="contained" startIcon={<GitHubIcon /> } href="https://github.com/specilaist" target="_blank" >GitHub</Button>
+          <Button className={classes.button} variant="contained" startIcon={<LinkedInIcon />} href="https://www.linkedin.com/in/eban-cambridge345" target="_blank" >LinkedIn</Button>
           <div>
             
           </div>
@@ -93,7 +97,8 @@ const ContactMe = () => {
           />
         </form>
         <div className={classes.textField}>
-          <Button variant="contained" color="primary">
+          {/* {if ({submit} === "unsubmit") } */}
+          <Button className="" variant="contained" color="primary" onClick={() => {}} >
             Submit
           </Button>
         </div>
