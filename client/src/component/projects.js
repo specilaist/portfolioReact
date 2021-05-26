@@ -21,16 +21,17 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "center",
     alignItems: "center",
     padding: theme.spacing(3),
-    margin: "30px",
+    height: "auto"
   },
   projects: {
     display: "flex",
     flexWrap: "wrap",
-    // height: 100,
     width: "100%",
+    padding: theme.spacing(3)
   },
   logos: {
     display: "flex",
+    flexWrap: "wrap",
     margin: theme.spacing(2),
     alignItems: "center",
     justify: "space-between",

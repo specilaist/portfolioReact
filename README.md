@@ -19,8 +19,7 @@ I rendered the page at first by using HTML elements to hardcode the aspects of t
 I then decided to use React because it would allow me to have a more efficient time loading information and displaying it on the page. React is also something I plan on using in the future so why not use it with my portfolio.
 
 ## Contact Page
-I started with a simple paper layout and a filler text as a placeholder.
-Once I wrote by Bio and what I wanted to include I felt using cards in a grid system would be more aesthetically pleasing to the eye.
+Started with a simple paper layout and a filler text as a placeholder. Added buttons with links to GitHub, LinkedIn, and my Email. Added a form for people to input information. Submit button does not work, but will when backend is included. 
 
 ## About Me Page
 Smple page is for a summary of who I am. This page includes a photo with some text on a card component.
@@ -28,7 +27,9 @@ Smple page is for a summary of who I am. This page includes a photo with some te
 # Future Development
 Would like to spend more time on making the CSS layout look more professional quality. Will set up a backend to record contact information for people who click on the submit button. Create a banner that links all three pages together or make an introductory page. 
 
-# Gif
+# Gif of App
+
+![Gif of App](./assests/app.gif)
 
 # App Links
 
