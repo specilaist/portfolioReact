@@ -33,11 +33,11 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     margin: theme.spacing(2),
     alignItems: "center",
+    justify: "space-between",
     height: "100px",
   },
   images: {
     height: "100px",
-
   },
 }));
 
@@ -80,29 +80,42 @@ function Projects() {
         </h4>
         <h3>Technologies And Languages:</h3>
         <Grid container className={classes.logos}>
-          <Grid item className={classes.logos}>
+          <Grid item xs={'auto'}>
             <img className={classes.images} src={react} alt="react logo" />
+          </Grid>
+          <Grid item xs={'auto'}>
             <img className={classes.images} src={javas} alt="javascript logo" />
+          </Grid>
+          <Grid item xs={'auto'}>
             <img className={classes.images} src={html} alt="HTML logo" />
+          </Grid>
+          <Grid item xs={'auto'}>
             <img className={classes.images} src={jquery} alt="JQuery logo" />
+          </Grid>
+          <Grid item xs={'auto'}>
             <img className={classes.images} src={mongo} alt="MongoDB logo" />
+          </Grid>
+          <Grid item xs={'auto'}>
             <img className={classes.images} src={sql} alt="MySQL logo" />
+          </Grid>
+          <Grid item xs={'auto'}>
             <img className={classes.images} src={node} alt="Node logo" />
+          </Grid>
+          <Grid item xs={'auto'} className={classes.logos}>
             <img className={classes.images} src={css} alt="CSS logo" />
           </Grid>
         </Grid>
       </Paper>
       <div>
-      <Grid
-        container
-        className={classes.projects}
-        direction="row"
-        alignItems="flex-start"
-        spacing={3}
-      >
-        {renderProjects()}
-      </Grid>
-
+        <Grid
+          container
+          className={classes.projects}
+          direction="row"
+          alignItems="flex-start"
+          spacing={3}
+        >
+          {renderProjects()}
+        </Grid>
       </div>
     </div>
   );

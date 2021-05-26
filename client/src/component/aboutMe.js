@@ -35,9 +35,6 @@ const AboutMe = () => {
 
   return (
     <div className={classes.root}>
-      <Paper>
-        <h1>My Contact Info</h1>
-      </Paper>
       <Card>
         <CardHeader title="About Me" titleTypographyProps="h1">
           <Typography component="h2">About Me</Typography>
