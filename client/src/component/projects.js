@@ -2,6 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Grid, Paper } from "@material-ui/core";
 import ProjectCard from "./projectCard/projectCard";
+import CollapseCard from "./projectCard/cardCollapse";
 import projects from "../projects.json";
 import javas from "./../images/Icons/J5.png";
 import react from "./../images/Icons/React.png";
@@ -17,9 +18,6 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(5),
   },
   paper: {
-    flexGrow: 1,
-    flexShrink: 2,
-    flexWrap: "wrap",
     textAlign: "center",
     alignItems: "center",
     padding: theme.spacing(3),
@@ -29,9 +27,10 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     flexWrap: "wrap",
     // height: 100,
-    // width: 100,
+    width: "100%",
   },
   logos: {
+    display: "flex",
     margin: theme.spacing(2),
     alignItems: "center",
     height: "100px",
@@ -50,11 +49,13 @@ function Projects() {
   const renderProjects = () => {
     return projects.map((projects) => {
       return (
-        <ProjectCard
+        <CollapseCard
           key={projects.id}
           name={projects.name}
           image={projects.image}
           code={projects.code}
+          elavator={projects.elavator}
+          description={projects.description}
           website={projects.website}
           github={projects.github}
         />
@@ -79,18 +80,7 @@ function Projects() {
         </h4>
         <h3>Technologies And Languages:</h3>
         <Grid container className={classes.logos}>
-          {/* <img
-            className={classes.images}
-            src={require("./../images/projectIcons/calendar.jpg").default}
-            alt="javascript log"
-          />
-          <img className={classes.images} src={javas} alt="javascript log" /> */}
           <Grid item className={classes.logos}>
-            {/* <img
-              className={classes.images}
-              src={require("./../images/projectIcons/calendar.jpg").default}
-              alt="javascript log"
-            /> */}
             <img className={classes.images} src={react} alt="react logo" />
             <img className={classes.images} src={javas} alt="javascript logo" />
             <img className={classes.images} src={html} alt="HTML logo" />
@@ -102,18 +92,18 @@ function Projects() {
           </Grid>
         </Grid>
       </Paper>
+      <div>
       <Grid
         container
         className={classes.projects}
         direction="row"
         alignItems="flex-start"
         spacing={3}
-        xs={12}
-        md={4}
-        sm={5}
       >
-        <Grid item>{renderProjects()}</Grid>
+        {renderProjects()}
       </Grid>
+
+      </div>
     </div>
   );
 }

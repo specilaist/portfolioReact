@@ -23,6 +23,12 @@ I started with a simple paper layout and a filler text as a placeholder.
 Once I wrote by Bio and what I wanted to include I felt using cards in a grid system would be more aesthetically pleasing to the eye.
 
 ## About Me Page
+Smple page is for a summary of who I am. This page includes a photo with some text on a card component.
+
+# Future Development
+Would like to spend more time on making the CSS layout look more professional quality. Will set up a backend to record contact information for people who click on the submit button. Create a banner that links all three pages together or make an introductory page. 
+
+# Gif
 
 # App Links
 
