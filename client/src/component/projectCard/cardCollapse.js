@@ -51,7 +51,9 @@ export default function CollapseCard(props) {
 
   const handleExpandClick = () => {
     setExpanded(!expanded);
-    setMoreInfo("Less Info");
+    if (moreInfo !== "More Info") {
+      setMoreInfo("More Info")
+    } else setMoreInfo ("Less Info");
   };
 
   return (

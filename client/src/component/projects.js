@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "center",
     alignItems: "center",
     padding: theme.spacing(3),
-    height: "auto"
+    margin: "30px",
   },
   projects: {
     display: "flex",
@@ -31,7 +31,6 @@ const useStyles = makeStyles((theme) => ({
   },
   logos: {
     display: "flex",
-    flexWrap: "wrap",
     margin: theme.spacing(2),
     alignItems: "center",
     justify: "space-between",
@@ -107,7 +106,7 @@ function Projects() {
           </Grid>
         </Grid>
       </Paper>
-      <div>
+      <div className={classes.projects} >
         <Grid
           container
           className={classes.projects}
