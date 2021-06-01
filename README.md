@@ -6,7 +6,7 @@
 * Allows prospective employers and collaborators an organized platform to contact me and see my work.
 
 ## Organization
-* This will be a React based website that has three pages to show Projects, information About Me, and ways for people to Contact Me. I am using React Router DOM to organize the pages. A card component is rendering the project cards using the map funtion. Visitor information and comments can be logged on a server and sent to my email. 
+* This will is a React based website that has three pages to show Projects, information About Me, and ways for people to Contact Me. I am using React Router DOM to organize the pages. A card component is rendering the project cards using the map funtion. Visitor information and comments can be logged on a server and sent to my email. 
 
 # My Steps
    * Making the Nav Bar was pretty easy because I copied the form from the Bootstrap website.
@@ -37,4 +37,4 @@ GitHub Link:
 https://github.com/specilaist/portfolioReact
 
 App Link
-specilaist.github.io/portfolioreact/
+https://specilaist.github.io/portfolioreact/

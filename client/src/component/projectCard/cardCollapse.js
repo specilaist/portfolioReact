@@ -41,6 +41,10 @@ const useStyles = makeStyles((theme) => ({
   },
   button: {
     margin: theme.spacing(2),
+  },
+  header: {
+    display: "flex",
+    flexWrap: "wrap"
   }
 }));
 
@@ -57,9 +61,9 @@ export default function CollapseCard(props) {
   };
 
   return (
-    <Grid item xs={12} sm sm={6} md={4}>
+    <Grid item xs={12} sm={6} md={4}>
       <Card className={classes.root}>
-      <CardHeader
+      <CardHeader className={classes.header}
         title={props.name}
       />
       <CardMedia
@@ -70,8 +74,7 @@ export default function CollapseCard(props) {
       <CardContent>
         <Typography paragraph>Elevator Pitch</Typography>
         <Typography variant="body2" color="textSecondary" component="p">
-          This impressive paella is a perfect party dish and a fun meal to cook together with your
-          guests. Add 1 cup of frozen peas along with the mussels, if you like.
+          {props.pitch}
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
@@ -93,8 +96,7 @@ export default function CollapseCard(props) {
         <CardContent>
           <Typography paragraph>Description:</Typography>
           <Typography paragraph>
-            Heat 1/2 cup of the broth in a pot until simmering, add saffron and set aside for 10
-            minutes.
+            {props.description}
           </Typography>
           <Button className={classes.button} variant="contained" startIcon={<GitHubIcon /> } href={props.github} target="_blank" >GitHub</Button>
           <Button className={classes.button} variant="contained" startIcon={<VisibilityIcon />} href={props.website} target="_blank" >App</Button>

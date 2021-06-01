@@ -12,13 +12,10 @@ const useStyles = makeStyles((theme) => ({
     flexWrap: "wrap",
     "& > *": {
       margin: theme.spacing(3),
-
-      // height: theme.spacing(100),
     },
   },
   textField: {
     margin: theme.spacing(2),
-    width: '30ch'
   },
   commentField: {
     margin: theme.spacing(2),

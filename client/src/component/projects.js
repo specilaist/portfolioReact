@@ -1,7 +1,6 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Grid, Paper } from "@material-ui/core";
-import ProjectCard from "./projectCard/projectCard";
 import CollapseCard from "./projectCard/cardCollapse";
 import projects from "../projects.json";
 import javas from "./../images/Icons/J5.png";
@@ -54,7 +53,7 @@ function Projects() {
           name={projects.name}
           image={projects.image}
           code={projects.code}
-          elavator={projects.elavator}
+          pitch={projects.pitch}
           description={projects.description}
           website={projects.website}
           github={projects.github}
