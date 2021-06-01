@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
   },
   expand: {
     transform: 'rotate(0deg)',
-    marginLeft: 'auto',
+    marginLeft: '0px',
     transition: theme.transitions.create('transform', {
       duration: theme.transitions.duration.shortest,
     }),
@@ -45,6 +45,9 @@ const useStyles = makeStyles((theme) => ({
   header: {
     display: "flex",
     flexWrap: "wrap"
+  },
+  info: {
+    marginLeft: 'auto'
   }
 }));
 
@@ -81,6 +84,7 @@ export default function CollapseCard(props) {
         <IconButton aria-label="add to favorites">
           <FavoriteIcon />
         </IconButton>
+        <Typography className={classes.info}>{moreInfo}</Typography>
         <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
@@ -89,7 +93,7 @@ export default function CollapseCard(props) {
           aria-expanded={expanded}
           aria-label="show more"
         >
-          {moreInfo}<ExpandMoreIcon />
+          <ExpandMoreIcon />
         </IconButton>
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>

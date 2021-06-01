@@ -30,9 +30,7 @@ const useStyles = makeStyles((theme) => ({
 const ContactMe = () => {
   const classes = useStyles();
   const [submit, setSubmit] = useState("unsubmit");
-  const gitHubLink = "https://github.com/specilaist"
-
-
+  
   return (
     <div className={classes.root}>
       <Paper elevation={5}>

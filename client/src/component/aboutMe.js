@@ -5,10 +5,6 @@ import CardHeader from "@material-ui/core/CardHeader";
 import CardMedia from "@material-ui/core/CardMedia";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
-import Paper from "@material-ui/core/Paper";
-import CardActions from "@material-ui/core/CardActions";
-import Collapse from "@material-ui/core/Collapse";
-import RecipeReviewCard from "./projectCard/cardExample";
 import me from './../images/me.jpeg';
 
 const useStyles = makeStyles((theme) => ({
@@ -44,9 +40,9 @@ const AboutMe = () => {
 					alt='nature'
           component="image"
           height="100"
-					title='nature'
+					title='Me'
           src={me}>
-            <img className={classes.media} src={ me } />
+            <img className={classes.media} alt="Me in a crowd" src={ me } />
 
         </CardMedia>
         <CardContent>
